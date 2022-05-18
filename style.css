@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.imageProduct img {
+    width: 800px;
+}
+
+.logo p {
+    font-size: 200px;
+    font-family: "Gabriela";
+}
+
+.desc p {
+    font-size: 60px;
+    font-family: "Nunito";
+}
+
+.buttonBuy button {
+    width: 400px;
+    font-size: 50px;
+    border-radius: 15px;
+}
+
+.jumbotron {
+    padding: 50px 250px 70px 200px;
+    /* padding-right: 250px; */
+    display: flex;
+    justify-content: space-between;
+    background-image: url("images/bgJumbotron.png");
+}
+
+.logo {
+    display: flex;
+}
+
+.logo p {
+    padding-top: 70px;
+}
+
+.desc, .buttonBuy {
+    margin-left: 400px;
+}
+
+.contentDesc {
+    font-size: 44px;
+    text-align: center;
+    padding: 50px 700px 50px 700px;
+}
+
+hr {
+    color: rgba(255, 210, 76, 0.88);
+    height: 10px;
+}
+
+/* 
+.contentDesc p {
+    width: 50%;
+} */
+
+h1 {
+    font-size: 48px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    /* padding: 0 200px 0 200px; */
+    font-size: 44px;
+    text-align: center;
+    background-color: rgba(255, 210, 76, 0.88);
+}
+
+.milk, .soursop {
+    margin: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    padding: 100px;
+}
+
+.milk img, .soursop img {
+    width: 1000px;
+}
+
+.soursop p {
+    padding-top: 69px;
+}
